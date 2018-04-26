@@ -92,7 +92,7 @@ class Bug
         else if(bugDirection.equals("Downwards")){
             currentY = currentY - 1;
         }
-        System.out.println("Adam Ant has moved to (" + currentX + "," + currentY +")");
+        System.out.println("Adam Ant has moved to (" + getX() + "," + getY() +")");
     }
     
     public int getX(){
