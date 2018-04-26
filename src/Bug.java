@@ -60,7 +60,7 @@ class Bug
         else if(bugDirection.equals("to the left")){
             bugDirection = "Upwards";
         }
-        System.out.println("Adam Ant is now facing " + bugDirection);
+        System.out.println("Adam Ant is now facing " + getDirection());
     }
     
     public void bugTurnLeft(){
@@ -76,7 +76,7 @@ class Bug
         else if(bugDirection.equals("to the right")){
             bugDirection = "Upwards";
         }
-        System.out.println("Adam Ant is now facing " + bugDirection);
+        System.out.println("Adam Ant is now facing " + getDirection());
     }
     
     public void bugMove(){
